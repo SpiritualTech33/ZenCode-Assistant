@@ -2,7 +2,7 @@
   <img src="ZenCode-Assistant.PNG" alt="ZenCode Assistant" width="800"/>
 </p>
 
-# ZenCode Assistant
+# ZenCode-Assistant
 
 ---
 
