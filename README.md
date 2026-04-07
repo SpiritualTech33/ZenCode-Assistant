@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="ZenCode-Assistant.PNG" alt="ZenCode Assistant" width="800"/>
+</p>
+
 # ZenCode Assistant
 
 ---
