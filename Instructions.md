@@ -1,9 +1,9 @@
-# Instructions — How To Use It
+# Several Ways To Use It 
 ---
 
 Well, I will give you several forms to use it, from the easiest one up to the pro one.
 
-## Just Drag The Zip Folder Into Customize Tab on claude.ai
+## As Skill with Claude and ClaudeCode 
 
 This is the simplest one. 
 Go to claude.ai, enter into customize tab, select skills, choose create skill and drag that 
@@ -12,7 +12,7 @@ principles. This is a great way to use it if you already use ClaudeCode.
 
 ---
 
-## Copy the system prompt into CLAUDE.md local file
+## As Context Inyection In Local Sessions (ClaudeCode)
 
 If you are like me and you love to have your AI models in the terminal, this option fits for you.
 Just go to the local CLAUDE.md file in your computer and copy and paste the system prompt.
