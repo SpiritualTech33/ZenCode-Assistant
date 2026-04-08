@@ -5,6 +5,8 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+---
+
 ## [0.7.0] 2026-April-06
 
 ### Added
@@ -17,15 +19,39 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - MIT License
 - README with project overview
 
+---
+
 ## [1.0.0] 2026-April-07
 
 ### Added
 - README Updated
 - ZenCode-Assistant image change.
 - Everything versioned to v1.0.0
-  
+
+---
+
 ## [1.7.0] 2026-April-07
 
 ### Added
 - README Updated
 - Modelfile additions
+
+---
+
+## [1.7.1] 2026-April-08
+
+### Added
+v1.7.1 Other-Ways-To-Use-It.md
+v1.7.1 Modelfile Update
+v1.7.1 README.md (mimimal changes in command instructions)
+Everything versioned to v1.7.1
+
+
+
+### Removed
+Instructions.md
+
+---
+
+
+

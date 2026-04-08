@@ -6,7 +6,7 @@
 
 ---
 
-## Quick Start — Get ZenCode Assistant running in under 5 minutes.
+## Quick Start — Get ZenCode-Assistant-v1.7.1 running in under 5 minutes.
 
 **Step 0 — Clone This Repo**
 ```bash
@@ -31,7 +31,7 @@ ollama pull qwen2.5-coder:7b
 
 **Step 3 — Create ZenCode Assistant**
 ```bash
-ollama create ZenCode-Assistant-v1.7.0 -f Modelfile-ZenCode-Assistant
+ollama create ZenCode-Assistant-v1.7.1 -f Modelfile-ZenCode-Assistant
 ```
 
 Verify it's there:
@@ -41,18 +41,19 @@ ollama list
 
 **Step 4 — Run ZenCode Assistant**
 ```bash
-ollama run ZenCode-Assistant-v1.7.0
+ollama run ZenCode-Assistant-v1.7.1
 ```
+Or simply run it from the Ollama app.
 
-You're in. No internet. No cloud. Just you, your terminal, and a model trained to write clean, conscious code.
+You are in. No internet. No cloud. Just you, your terminal, and a model trained to write clean, conscious code.
 
 ---
 
 ## What Is ZenCode Assistant?
 
-Let's keep it simple. ZenCode Assistant is a local AI coding partner that lives in your terminal. It generates clean, aesthetic, human-readable code following PEP 8, PEP 20, and the ZenCode philosophy — a set of principles inspired by Zen, Stoicism, and mindful software craftsmanship.
+ZenCode Assistant is a local AI coding partner that lives in your terminal. It generates clean, aesthetic, human-readable code following PEP 8, PEP 20, and the ZenCode philosophy — a set of principles inspired by Zen, Stoicism, and mindful software craftsmanship.
 
-No internet connection required. You choose the AI model. You tune the parameters — context window, temperature, creativity. You shape your own assistant. That's the fun part.
+No internet connection required. You choose the AI model. You tune the parameters — context window, temperature, creativity. You shape your own assistant.
 
 The essence is **Human In The Loop**. You are the developer. You are the one who creates. The assistant simply helps you write code that you can understand today — and six months from now when you come back to debug it.
 
@@ -60,9 +61,9 @@ The essence is **Human In The Loop**. You are the developer. You are the one who
 
 ## Why Does This Matter?
 
-Think about it for a second. Most modern development — web, software, AI — relies heavily on AI-assisted workflows. But what happens when you're somewhere with no signal, no Wi-Fi, no API access?
+Most modern development — web, software, AI — relies heavily on AI-assisted workflows. But what happens when there is no signal, no Wi-Fi, no API access?
 
-ZenCode Assistant is built for exactly that scenario. A powerful, lightweight tool that fits on modest hardware and travels with you anywhere. Just you, your terminal, and an LLM ready to work. No cloud dependency. No excuses.
+ZenCode Assistant is built for exactly that scenario. A powerful, lightweight tool that fits on modest hardware and travels with you anywhere. Just you, your terminal, and an LLM ready to work. No cloud dependency.
 
 ---
 
@@ -70,7 +71,7 @@ ZenCode Assistant is built for exactly that scenario. A powerful, lightweight to
 
 Whether you write backend services, frontend interfaces, data pipelines, or documentation — if you spend time in a terminal, AI can sharpen your thinking. It helps you prototype in minutes, structure ideas with precision, and iterate faster than ever before.
 
-But here's the key insight: AI is not replacing developers. It never was. It is a new kind of collaborator — one that amplifies what you already bring to the table. The human mind asks the questions. The machine helps explore the answers. Together, you move faster and think clearer.
+But here is the key insight: AI is not replacing developers. It never was. It is a new kind of collaborator — one that amplifies what you already bring to the table. The human mind asks the questions. The machine helps explore the answers. Together, you move faster and think clearer.
 
 ---
 
@@ -86,9 +87,9 @@ That is the vision. That is the way.
 
 ## Built With ZenCode Assistant
 
-Curious what ZenCode code actually looks like in practice?
+Curious what ZenCode looks like in practice?
 
-This repo contains a collection of coding katas — problems from CodeWars and LeetCode —
+This repository contains a collection of coding katas — problems from CodeWars and LeetCode —
 solved entirely with ZenCode Assistant, offline, in the terminal.
 Every solution follows ZenCode principles. Every commit passed pytest first.
 
@@ -104,6 +105,6 @@ Cosmos De La Cruz
 
 ## Version
 
-1.7.0
+1.7.1
 
 ---
