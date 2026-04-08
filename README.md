@@ -1,8 +1,50 @@
 <p align="center">
-  <img src="ZenCode-Assistant.PNG" alt="ZenCode Assistant" width="800"/>
+  <img src="zencode_assistant.png" alt="ZenCode Assistant" width="800"/>
 </p>
 
 # ZenCode-Assistant
+
+---
+
+## Quick Start — Get ZenCode Assistant running in under 5 minutes.
+
+**Step 0 — Clone This Repo**
+```bash
+git clone https://github.com/SpiritualTech33/ZenCode-Assistant.git
+cd ZenCode-Assistant
+```
+
+**Step 1 — Install Ollama**
+
+Download it from [ollama.com](https://ollama.com) and follow the installer for your OS.
+
+Verify it works:
+```bash
+ollama --version
+```
+
+**Step 2 — Download Qwen 2.5 Coder 7B**
+```bash
+ollama pull qwen2.5-coder:7b
+```
+*~4.7 GB download. Grab a coffee. ☕*
+
+**Step 3 — Create ZenCode Assistant**
+```bash
+ollama create ZenCode-Assistant -f Modelfile-ZenCode-Assistant
+```
+
+Verify it's there:
+```bash
+ollama list
+```
+
+**Step 4 — Run ZenCode Assistant**
+```bash
+ollama run ZenCode-Assistant
+```
+
+You're in. No internet. No cloud. Just you, your terminal, and a model trained to write clean, conscious code.
 
 ---
 
@@ -42,6 +84,18 @@ That is the vision. That is the way.
 
 ---
 
+## Built With ZenCode Assistant
+
+Curious what ZenCode code actually looks like in practice?
+
+This repo contains a collection of coding katas — problems from CodeWars and LeetCode —
+solved entirely with ZenCode Assistant, offline, in the terminal.
+Every solution follows ZenCode principles. Every commit passed pytest first.
+
+👉 [SpiritualTech33/Coding-Katas](https://github.com/SpiritualTech33/Coding-Katas)
+
+---
+
 ## Author
 
 Cosmos De La Cruz
@@ -50,6 +104,6 @@ Cosmos De La Cruz
 
 ## Version
 
-0.7.0
+1.0.0
 
 ---
