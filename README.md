@@ -31,7 +31,7 @@ ollama pull qwen2.5-coder:7b
 
 **Step 3 — Create ZenCode Assistant**
 ```bash
-ollama create ZenCode-Assistant -f Modelfile-ZenCode-Assistant
+ollama create ZenCode-Assistant-v1.7.0 -f Modelfile-ZenCode-Assistant
 ```
 
 Verify it's there:
@@ -104,6 +104,6 @@ Cosmos De La Cruz
 
 ## Version
 
-1.0.0
+1.7.0
 
 ---

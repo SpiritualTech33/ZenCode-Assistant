@@ -24,3 +24,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - ZenCode-Assistant image change.
 - Everything versioned to v1.0.0
   
+## [1.7.0] 2026-April-07
+
+### Added
+- README Updated
+- Modelfile additions
