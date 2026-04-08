@@ -41,7 +41,7 @@ ollama list
 
 **Step 4 — Run ZenCode Assistant**
 ```bash
-ollama run ZenCode-Assistant
+ollama run ZenCode-Assistant-v1.7.0
 ```
 
 You're in. No internet. No cloud. Just you, your terminal, and a model trained to write clean, conscious code.

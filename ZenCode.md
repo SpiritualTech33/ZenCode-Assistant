@@ -166,7 +166,7 @@ Write with intention. Write with compassion. Write with clarity. This is the way
 
 
 ## Version: 
-1.0.0
+1.7.0
 
 ## Author: 
 Cosmos De La Cruz
