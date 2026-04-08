@@ -35,23 +35,16 @@ This is my favorite one, but at the same time, the hardest.
  ollama pull your_model_name
 ```
 By default, the Modelfile uses qwen2.5-coder:7b.
+
 If you want a different model, specify the model name in the Modelfile.
 
 3. Choose your parameters. By default, these are the model parameters:
 
-    # You can choose a bigger context window if your PC has the power.
     PARAMETER num_ctx 32000
-
     PARAMETER temperature 0.7
     PARAMETER top_p 0.9
-
-    # Limits token selection to the top 40 most likely candidates. Sharpens output alongside top_p.
     PARAMETER top_k 40
-
-    # Prevents the model from repeating itself. A gentle nudge to keep things fresh.
     PARAMETER repeat_penalty 1.1
-
-    # Max tokens per response. Prevents runaway outputs.
     PARAMETER num_predict 2048
     PARAMETER stop "User:"
     PARAMETER stop "Assistant:"
