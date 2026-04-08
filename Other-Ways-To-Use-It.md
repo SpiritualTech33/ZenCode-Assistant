@@ -40,7 +40,7 @@ If you want a different model, specify the model name in the Modelfile.
 
 3. Choose your parameters. By default, these are the model parameters:
 
-    PARAMETER num_ctx 32000
+    PARAMETER num_ctx 16000
     PARAMETER temperature 0.7
     PARAMETER top_p 0.9
     PARAMETER top_k 40
