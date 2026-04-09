@@ -6,7 +6,7 @@
 
 ---
 
-## Quick Start — Get ZenCode-Assistant-v1.7.1 running in under 5 minutes.
+## Quick Start — Get ZenCode-Assistant-v1.7.2 running in under 5 minutes.
 
 **Step 0 — Clone This Repo**
 ```bash
