@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="zencode_assistant.png" alt="ZenCode Assistant" width="800"/>
+  <img src="zencode_assistant_v1.7.2_thumbnail.jpg" alt="ZenCode Assistant" width="800"/>
 </p>
 
 # ZenCode-Assistant
@@ -85,6 +85,10 @@ That is the vision. That is the way.
 
 ---
 
+<p align="center">
+  <img src="zencode_assistant.png" alt="ZenCode Assistant" width="800"/>
+</p>
+
 ## Built With ZenCode Assistant
 
 Curious what ZenCode looks like in practice?
@@ -94,6 +98,7 @@ solved entirely with ZenCode Assistant, offline, in the terminal.
 Every solution follows ZenCode principles. Every commit passed pytest first.
 
 👉 [SpiritualTech33/Coding-Katas](https://github.com/SpiritualTech33/Coding-Katas)
+
 
 ---
 

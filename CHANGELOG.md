@@ -14,6 +14,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Compressed system prompt from ~250 lines to ~45 lines — preserves all ZenCode principles, frees context window
 - Tuned sampling parameters (temperature, top_p, top_k, repeat_penalty) for more natural responses
 - Updated stop tokens to match Gemma 3 native chat format
+- New Thumbnail image.
+- Minimal change in images order
 
 ---
 
