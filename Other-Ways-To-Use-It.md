@@ -34,31 +34,31 @@ This is my favorite one, but at the same time, the hardest.
 ```bash
  ollama pull your_model_name
 ```
-By default, the Modelfile uses qwen2.5-coder:7b.
+By default, the Modelfile uses gemma3:4b
 
 If you want a different model, specify the model name in the Modelfile.
 
 3. Choose your parameters. By default, these are the model parameters:
 
     PARAMETER num_ctx 16000
-    PARAMETER temperature 0.7
-    PARAMETER top_p 0.9
-    PARAMETER top_k 40
-    PARAMETER repeat_penalty 1.1
+    PARAMETER temperature 0.65
+    PARAMETER top_p 0.85
+    PARAMETER top_k 35
+    PARAMETER repeat_penalty 1.15
     PARAMETER num_predict 2048
-    PARAMETER stop "User:"
-    PARAMETER stop "Assistant:"
+    PARAMETER stop "<start_of_turn>"
+    PARAMETER stop "<end_of_turn>"
 
-You can adjust them freely in the Modelfile. This is the recommended configuration.
+You can adjust them freely in the Modelfile. But This is the recommended configuration.
 
-4. Run this command on a Git Bash terminal:
+1. Run this command on a Git Bash terminal:
 ```bash
-ollama create ZenCode-Assistant-v1.7.1 -f Modelfile-ZenCode-Assistant
+ollama create ZenCode-Assistant-v1.7.2 -f Modelfile-ZenCode-Assistant
 ```
 
-5. Finally, verify the model is installed by running `ollama list`.
+1. Finally, verify the model is installed by running `ollama list`.
 
-6. You now have a local model running on your PC. Simply type `ollama run ZenCode-Assistant` in your terminal and you are ready to go.
+2. You now have a local model running on your PC. Simply type `ollama run ZenCode-Assistant-v1.7.2` in your terminal and you are ready to go.
 
 ---
 

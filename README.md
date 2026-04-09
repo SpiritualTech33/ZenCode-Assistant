@@ -23,15 +23,15 @@ Verify it works:
 ollama --version
 ```
 
-**Step 2 — Download Qwen 2.5 Coder 7B**
+**Step 2 — Download gemma3:4b**
 ```bash
-ollama pull qwen2.5-coder:7b
+ollama pull gemma3:4b
 ```
-*~4.7 GB download. Grab a coffee. ☕*
+*~3.3 GB download. Grab a coffee. ☕*
 
 **Step 3 — Create ZenCode Assistant**
 ```bash
-ollama create ZenCode-Assistant-v1.7.1 -f Modelfile-ZenCode-Assistant
+ollama create ZenCode-Assistant-v1.7.2 -f Modelfile-ZenCode-Assistant
 ```
 
 Verify it's there:
@@ -41,7 +41,7 @@ ollama list
 
 **Step 4 — Run ZenCode Assistant**
 ```bash
-ollama run ZenCode-Assistant-v1.7.1
+ollama run ZenCode-Assistant-v1.7.2
 ```
 Or simply run it from the Ollama app.
 
@@ -105,6 +105,6 @@ Cosmos De La Cruz
 
 ## Version
 
-1.7.1
+1.7.2
 
 ---
