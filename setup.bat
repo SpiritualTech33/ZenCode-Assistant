@@ -85,3 +85,4 @@ echo.
 ollama run zen_code
 
 pause
+\r
