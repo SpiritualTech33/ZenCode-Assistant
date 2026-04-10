@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="zencode_assistant_v1.7.2_thumbnail.jpg" alt="ZenCode Assistant" width="800"/>
+  <img src="https://github.com/SpiritualTech33/Images/blob/master/zencode_assistant.jpg" alt="ZenCode Assistant" width="800"/>
 </p>
 
 # ZenCode-Assistant — The Way of the Programmer Monk
