@@ -2,114 +2,102 @@
   <img src="zencode_assistant_v1.7.2_thumbnail.jpg" alt="ZenCode Assistant" width="800"/>
 </p>
 
-# ZenCode-Assistant
+# ZenCode-Assistant — The Way of the Programmer Monk
 
 ---
 
-## Quick Start — Get ZenCode-Assistant-v1.7.2 running in under 5 minutes.
+## Quick Start — The Path of Least Resistance
 
-**Step 0 — Clone This Repo**
+Before you begin, ensure you are **connected to the internet**. This is the only moment you will need it — for the initial acquisition of the tools and the silent mind of the assistant.
+
+### Windows 🪟
+1.  **Click** on `setup.bat`.
+2.  That is all. Breathe.
+
+### Mac / Linux 🍎🐧
+1.  **Run** `sh setup.sh` in your terminal.
+2.  The flow begins.
+
+### What happens in the Silence?
+The terminal will act with intention:
+- **Presence:** It checks if Ollama is installed. If it is missing, it will **automatically download and install it** for you.
+- **Acquisition:** It pulls `gemma3:4b` (~3.3 GB), the silent mind of the assistant.
+- **Creation:** It builds your local `zen_code` assistant using the ZenCode PRO Modelfile.
+- **Activation:** It launches the assistant, ready for your first line of code.
+
+### To Return to the Path
+Once installed, you do not need to run the setup again. Simply type in any terminal:
 ```bash
-git clone https://github.com/SpiritualTech33/ZenCode-Assistant.git
-cd ZenCode-Assistant
+ollama run zen_code
 ```
-
-**Step 1 — Install Ollama**
-
-Download it from [ollama.com](https://ollama.com) and follow the installer for your OS.
-
-Verify it works:
-```bash
-ollama --version
-```
-
-**Step 2 — Download gemma3:4b**
-```bash
-ollama pull gemma3:4b
-```
-*~3.3 GB download. Grab a coffee. ☕*
-
-**Step 3 — Create ZenCode Assistant**
-```bash
-ollama create ZenCode-Assistant-v1.7.2 -f Modelfile-ZenCode-Assistant
-```
-
-Verify it's there:
-```bash
-ollama list
-```
-
-**Step 4 — Run ZenCode Assistant**
-```bash
-ollama run ZenCode-Assistant-v1.7.2
-```
-Or simply run it from the Ollama app.
-
-You are in. No internet. No cloud. Just you, your terminal, and a model trained to write clean, conscious code.
+And the flow will resume.
 
 ---
 
 ## What Is ZenCode Assistant?
 
-ZenCode Assistant is a local AI coding partner that lives in your terminal. It generates clean, aesthetic, human-readable code following PEP 8, PEP 20, and the ZenCode philosophy — a set of principles inspired by Zen, Stoicism, and mindful software craftsmanship.
+ZenCode Assistant is a local AI coding partner that lives in your terminal. It generates clean, aesthetic, human-readable code following the **ZenCode PRO** philosophy — a set of principles inspired by Zen, Stoicism, and mindful software craftsmanship.
 
-No internet connection required. You choose the AI model. You tune the parameters — context window, temperature, creativity. You shape your own assistant.
-
-The essence is **Human In The Loop**. You are the developer. You are the one who creates. The assistant simply helps you write code that you can understand today — and six months from now when you come back to debug it.
+No internet connection required. No cloud dependency. Just you, your terminal, and a model trained to write code that you can understand today — and six months from now.
 
 ---
 
-## Why Does This Matter?
+## The Philosophy: ZenCode PRO
 
-Most modern development — web, software, AI — relies heavily on AI-assisted workflows. But what happens when there is no signal, no Wi-Fi, no API access?
+This version (1.7.3) introduces **ZenCode PRO**, integrating the **Programmer Monk's Mantra** and the **Noble Eightfold Path of Code**. We no longer just write code; we practice active meditation through logic.
 
-ZenCode Assistant is built for exactly that scenario. A powerful, lightweight tool that fits on modest hardware and travels with you anywhere. Just you, your terminal, and an LLM ready to work. No cloud dependency.
+- **Clarity Over Cleverness:** Clear code serves forever.
+- **Explicitness Over Implicitness:** Hidden behavior is suffering.
+- **Naming Is Meaning:** Names are promises.
+- **Code Must Breathe:** White space is mental clarity.
 
----
-
-## AI as a Force Multiplier
-
-Whether you write backend services, frontend interfaces, data pipelines, or documentation — if you spend time in a terminal, AI can sharpen your thinking. It helps you prototype in minutes, structure ideas with precision, and iterate faster than ever before.
-
-But here is the key insight: AI is not replacing developers. It never was. It is a new kind of collaborator — one that amplifies what you already bring to the table. The human mind asks the questions. The machine helps explore the answers. Together, you move faster and think clearer.
+Read the full manifesto in [ZEN_CODE_PRO.md](./ZEN_CODE_PRO.md).
 
 ---
 
-## Human & Artificial Intelligence Symbiosis
+## Why Local AI?
 
-There is a lot of noise about separation — who wrote what, human or machine, as if that distinction matters more than the result. But consider this: if you are building tools that solve real problems and serve real communities, does it truly matter who typed more lines of code?
+In the silence of an offline environment, focus deepens. ZenCode Assistant is built for the developer who travels, the one who seeks privacy, and the one who understands that AI is a **Force Multiplier**, not a replacement.
 
-Why place the ego at the center of technology? Instead of dividing, why not create together? Human intelligence and artificial intelligence, working side by side, building technology that elevates the spirit.
-
-That is the vision. That is the way.
+The human mind asks the questions. The machine helps explore the answers. Together, you move faster and think clearer.
 
 ---
-
-<p align="center">
-  <img src="zencode_assistant.png" alt="ZenCode Assistant" width="800"/>
-</p>
 
 ## Built With ZenCode Assistant
 
-Curious what ZenCode looks like in practice?
-
-This repository contains a collection of coding katas — problems from CodeWars and LeetCode —
-solved entirely with ZenCode Assistant, offline, in the terminal.
-Every solution follows ZenCode principles. Every commit passed pytest first.
+Curious what ZenCode looks like in practice? 
+Every solution in our collection follows these principles and passes through the fire of testing before being committed.
 
 👉 [SpiritualTech33/Coding-Katas](https://github.com/SpiritualTech33/Coding-Katas)
 
+---
+
+## 🌌 From the Heart of Spiritual Tech
+
+If the way of **ZenCode** resonates with your spirit, we invite you to explore more of our creations at the **Official Spiritual Tech Store**. Every tool, book, and resource we release is forged with intention, philosophy, and love.
+
+👉 [**Official Store (English)**](https://spiritualtech777.gumroad.com/)  
+👉 [**Tienda Oficial (Español)**](https://spiritualtech777.gumroad.com/?section=tapyNvIV6nFbDIMALB9-7w%3D%3D)
+
+---
+
+### A Note of Gratitude
+
+At **Spiritual Tech**, we believe that technology and spirit are not opposites, but two sides of the same truth. Thank you for choosing to invest in something different. We don't build to fill space — we build because we genuinely believe these ideas can shift the way people think, code, and live.
+
+We are just getting started. New ideas are constantly being forged here. Stay close — the best is yet to come.
+
+**With love,**  
+**The Spiritual Tech Team** 🧘‍♂️✨
 
 ---
 
 ## Author
-
-Cosmos De La Cruz
+**Cosmos De La Cruz**
 
 ---
 
 ## Version
-
-1.7.2
+**1.7.3 — The Programmer Monk**
 
 ---

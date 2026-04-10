@@ -4,10 +4,30 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+## Cada entrada es un commit
+Aqui uso un sistema de SnapShot. Tomo una foto del repo antes de hacer los cambios y los guardo en memoria de ClaudeCode o Gemini. Despues les digo que compare la repo despues del commit y registre los cambios en el Changelog
 
 ---
 
-## [1.7.2] - 2026-04-09
+## [1.7.3] - 2026-04-09
+
+### Added
+- **ZenCode PRO** — The advanced evolution of our philosophy.
+- **The Programmer Monk's Mantra** — A meditative commitment to clarity and presence.
+- **The Noble Eightfold Path of Code** — Ancient wisdom applied to modern software craftsmanship.
+- **Automatic Ollama Installation** — Setup scripts now handle the acquisition of the Ollama vessel automatically (`winget` for Windows, `curl` for Mac/Linux).
+- **Spiritual Tech Integration** — README and documentation now reflect the core vision, gratitude, and direct links to the official store.
+
+
+### Changed
+- **Modelfile v1.7.3** — Reborn as "The Programmer Monk". Tuned for deeper reasoning and a calmer, more intentional voice.
+- `README.md` — Simplified "Quick Start" focusing on the Path of Least Resistance (one-click setup).
+- `ZEN_CODE.md` evolved into `ZEN_CODE_PRO.md` — Now a complete manual for conscious programming.
+- Setup scripts (`setup.bat` & `setup.sh`) updated to facilitate the 1.7.3 flow.
+
+---
+
+## [1.7.2] - 2026-04-09 
 
 ### Changed
 - Switched base model from `qwen2.5-coder:7b` to `gemma3:4b` for better conversational quality and reasoning
@@ -60,5 +80,3 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Usage instructions for four integration methods
 - MIT License
 - README with project overview
-
----

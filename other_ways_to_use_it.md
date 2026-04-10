@@ -53,19 +53,29 @@ You can adjust them freely in the Modelfile. But This is the recommended configu
 
 1. Run this command on a Git Bash terminal:
 ```bash
-ollama create ZenCode-Assistant-v1.7.2 -f Modelfile-ZenCode-Assistant
+ollama create ZenCode-Assistant-v1.7.3 -f Modelfile-ZenCode-Assistant
 ```
 
 1. Finally, verify the model is installed by running `ollama list`.
 
-2. You now have a local model running on your PC. Simply type `ollama run ZenCode-Assistant-v1.7.2` in your terminal and you are ready to go.
+2. You now have a local model running on your PC. Simply type `ollama run zen_code` in your terminal and you are ready to go.
+
+---
+
+## 🌌 From the Heart of Spiritual Tech
+
+If you find value in these alternative paths, we invite you to explore more of our creations at the **Official Spiritual Tech Store**. Every tool, book, and resource we release is forged with intention, philosophy, and love.
+
+👉 [**Official Store (English)**](https://spiritualtech777.gumroad.com/)  
+👉 [**Tienda Oficial (Español)**](https://spiritualtech777.gumroad.com/?section=tapyNvIV6nFbDIMALB9-7w%3D%3D)
 
 ---
 
 ## Enjoy It
 
-This project was built with a lot of love. I hope you enjoy it as much as I do.
-Now, go out there and build something awesome!
+This project was built with a lot of love by the **Spiritual Tech Team**. We believe that technology and spirit are two sides of the same truth, and we hope you enjoy this tool as much as we enjoyed creating it.
 
----
-   
+Thank you for being part of this vision. We are just getting started — new books, new tools, and new ideas are constantly being forged. Stay close; the best is yet to come.
+
+**With deep gratitude,**  
+**The Spiritual Tech Team** 🧘‍♂️✨
