@@ -40,20 +40,33 @@ If you want a different model, specify the model name in the Modelfile.
 
 3. Choose your parameters. By default, these are the model parameters:
 
-    PARAMETER num_ctx 16000
-    PARAMETER temperature 0.65
-    PARAMETER top_p 0.85
-    PARAMETER top_k 35
-    PARAMETER repeat_penalty 1.15
-    PARAMETER num_predict 2048
-    PARAMETER stop "<start_of_turn>"
-    PARAMETER stop "<end_of_turn>"
+```Dockerfile
+# Context window (16k). Balanced for memory and history.
+PARAMETER num_ctx 16000
+
+# Temperature: 0.7. Slightly higher for more "soulful" and creative wisdom.
+PARAMETER temperature 0.7
+
+# Nucleus sampling: top 90% probability mass. Natural conversational flow.
+PARAMETER top_p 0.9
+
+# Sharpens output without killing variety.
+PARAMETER top_k 40
+
+# Prevent repetition while maintaining grammatical integrity.
+PARAMETER repeat_penalty 1.1
+
+# Stop sequences for Gemma 3 chat format.
+PARAMETER stop "<start_of_turn>"
+PARAMETER stop "<end_of_turn>"
+
+```
 
 You can adjust them freely in the Modelfile. But This is the recommended configuration.
 
 1. Run this command on a Git Bash terminal:
 ```bash
-ollama create ZenCode-Assistant-v1.7.3 -f Modelfile-ZenCode-Assistant
+ollama create zen_code -f Modelfile-ZenCode-Assistant
 ```
 
 1. Finally, verify the model is installed by running `ollama list`.
