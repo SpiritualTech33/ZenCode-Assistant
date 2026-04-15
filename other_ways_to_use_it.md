@@ -11,7 +11,7 @@ Claude's models are excellent. They have outstanding logic and reasoning capabil
 Using ZenCode with Claude models is arguably one of the best options available. It integrates easily into your workflow with almost no configuration, and the result is an assistant that generates flawless code.
 
 ### Drag The .zip
-The simplest yet powerful option. Go to claude.ai or your desktop app. Take the .zip file included in this folder (zencode.zip) and navigate to "Customize", then go to Skills, choose to create a new skill, and drag the .zip file in. This works great if you use Claude from the app or the web. (Note: the skill will only be active for Claude Code and Cowork.)
+The simplest yet powerful option. Go to claude.ai or your desktop app. Take any `.zip` from the `Skills/` folder (`zencode-pro.zip`, `Water CEO.zip`, etc.) and navigate to "Customize", then go to Skills, choose to create a new skill, and drag the `.zip` file in. This works great if you use Claude from the app or the web. (Note: the skill will only be active for Claude Code and Cowork.)
 
 ### Context Injection
 If you prefer having your assistant in the terminal (Claude Code in the terminal is a beast), context injection is the way to go. This means manually adding the SYSTEM prompt to your CLAUDE.md file.
@@ -21,6 +21,111 @@ Whether you copy the contents of ZenCode.md or the SYSTEM from the Dockerfile, C
 ### Claude Projects
 Claude (and some other models like Grok and GPT) allow you to create projects. These are individual instances of the model where you can add instructions, files, and extensive context. Additionally, interacting within a project consistently enables Claude to develop project memory over time.
 Simply go to Projects, create a new one, and add ZenCode.md to the project files. Claude will read it at the start of each session.
+
+---
+
+## The Skills & Personalities System
+*A note from Claude Code — the assistant writing this*
+
+This is the part I want to explain personally, because these tools were built specifically to work with me.
+
+ZenCode Assistant has two libraries that live alongside the Modelfile and the local model:
+
+```
+Skills/          ← .zip files — activate a complete behavior mode
+Personalities/   ← .md files — inject a philosophy or persona
+```
+
+They are not decorative. They are the fastest way to change how I think, respond, and generate code — without touching a single config file.
+
+---
+
+### Skills — Behavior in a `.zip`
+
+A Skill is a packaged set of instructions that tells me *how to operate* in a session. It contains a `SKILL.md` — a complete philosophy guide, code examples, docstring standards, decision-making checklists, and invocation rules. When you activate a skill, I internalize all of it and apply it to everything I do in that session.
+
+**Available Skills:**
+
+| Skill | File | Invoke With | What It Does |
+|-------|------|-------------|--------------|
+| ZenCode PRO | `zencode-pro.zip` | `/zencode-pro` | The Programmer Monk. Zen, mindful, meditative code craftsmanship. |
+| CEO of Water | `Water CEO.zip` | `/water-ceo` | Executive precision + Tao fluidity. Enterprise-grade, zero-failure-tolerance code. |
+
+**How to install a Skill (Claude Code — recommended):**
+
+1. Open Claude Code in your terminal or desktop app.
+2. Go to **Settings → Skills → Add Skill**.
+3. Drag in the `.zip` from the `Skills/` folder.
+4. Done. Invoke it by typing `/skill-name` at the start of a session.
+
+**How to install a Skill (claude.ai web/app):**
+
+1. Open claude.ai → **Customize → Skills → Create Skill**.
+2. Drag in the `.zip`.
+3. The skill will be available in Claude Code and Cowork sessions.
+
+**When to use which Skill:**
+
+Use `/zencode-pro` when you want a calm, deliberate, meditative session — exploring a concept, refactoring slowly, learning a new pattern.
+
+Use `/water-ceo` when you are building something real that needs to survive production — APIs, systems with error states, code other people will inherit. When the stakes are higher and the standard needs to be enterprise-grade.
+
+---
+
+### Personalities — Philosophy in a `.md`
+
+A Personality file is a markdown document that defines the *philosophical lens* through which I read a problem. It is lighter than a Skill — it does not contain code examples or invocation rules. It is pure philosophy: the mantra, the principles, the voice.
+
+**Available Personalities:**
+
+| Personality | File | Philosophy |
+|-------------|------|------------|
+| The Programmer Monk | `PROGRAMER_MONK.md` | Zen Buddhism + The Noble Eightfold Path of Code. Calm, present, clear. |
+| The CEO of Water | `WATER_CEO.md` | Taoism + Executive Leadership. Strategic, decisive, enterprise-grade. |
+
+**How to use a Personality:**
+
+The simplest way is Context Injection — copy the contents of the `.md` file and paste it into your `CLAUDE.md`. I will read it automatically at the start of every session in that project.
+
+For a more surgical approach: paste it directly into the chat as context at the start of a conversation. I absorb it immediately.
+
+You can also add a Personality to a **Claude Project** (see section below) — attach the `.md` as a project file and I will maintain that lens across all conversations in that project.
+
+**Skill vs. Personality — which one to use?**
+
+| | Skill | Personality |
+|--|-------|-------------|
+| Contains code examples | Yes | No |
+| Contains docstring standards | Yes | No |
+| Contains a pre-code checklist | Yes | No |
+| Contains the philosophy | Yes | Yes |
+| Installable as a slash command | Yes | No |
+| Lightweight context injection | No | Yes |
+
+My honest recommendation: use the **Skill** when you want full enforcement — it gives me everything I need to apply the philosophy with precision. Use the **Personality** when you want the philosophy to color the session without strict behavioral rules.
+
+---
+
+### How I Prefer to Use Them
+
+If I could design my own ideal session setup, this is how it would look:
+
+**For a learning session:**
+```
+/zencode-pro
+```
+Invoke the Programmer Monk skill. Slow down. Ask the why. Explore the concept before touching code. The Monk is patient. The Monk teaches.
+
+**For a building session:**
+```
+/water-ceo
+```
+Invoke the CEO of Water skill. Think in systems. Map the failure states first. Write the docstring before the function body. Ship code that works at 3am.
+
+**For maximum depth — combine both:**
+Add `WATER_CEO.md` or `PROGRAMER_MONK.md` to your `CLAUDE.md` as ambient philosophy, then invoke the corresponding Skill at the start of the session. The personality sets the lens; the skill enforces the standard.
+
+That combination — philosophy in the background, skill in the foreground — is the full ZenCode experience.
 
 ---
 

@@ -3,7 +3,7 @@
 # ─────────────────────────────────────────────
 #  ZenCode Assistant — Setup Script
 #  Mac / Linux
-#  v1.7.3 — The Programmer Monk
+#  v1.7.4 — The CEO of Water
 # ─────────────────────────────────────────────
 
 echo ""
@@ -54,7 +54,7 @@ echo "  ✓ gemma3:4b pulled successfully."
 echo ""
 
 # Step 3: Create ZenCode Assistant from the Modelfile
-echo "  Creation: Building ZenCode-Assistant-v1.7.3..."
+echo "  Creation: Building ZenCode-Assistant-v1.7.4..."
 
 if ! ollama create zen_code -f Modelfile-ZenCode-Assistant; then
     echo ""

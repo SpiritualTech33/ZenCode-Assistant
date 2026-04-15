@@ -9,6 +9,23 @@ Aqui uso un sistema de SnapShot. Tomo una foto del repo antes de hacer los cambi
 
 ---
 
+## [1.7.4] - 2026-04-14
+
+### Added
+- **CEO Water Update** — The executive evolution of ZenCode Assistant. An assistant that thinks like a CEO and flows like water.
+- **New Persona: "The CEO of Water"** — Combines the decisive authority of an enterprise executive with the fluid adaptability of the Tao. Inspired by Lao Tzu (Chapter 8) and Bruce Lee ("Be like water").
+- **Executive Principles** — Five new guiding principles: Think in Systems, Zero Failure Tolerance, Decisive and Concise, Scalable by Design, Executive Communication.
+- **The Water Philosophy** — Four Tao-rooted properties integrated into the coding approach: Adaptability, Persistence, Power Through Softness, Filling the Low Places.
+
+### Changed
+- **Temperature tuned:** 0.7 → 0.65 — Slightly sharper for executive decisiveness without losing creative range.
+- **Base model retained:** `gemma3:4b` — Same proven foundation. The upgrade is in the philosophy and persona, not the weight.
+- **Modelfile identity:** Reborn from "The Programmer Monk" to "The CEO of Water". The philosophy deepens: from mindful presence to strategic mastery.
+- **Setup scripts updated** (`setup.bat` & `setup.sh`) to reflect new model and version.
+- **README updated** to reflect the new version identity and model.
+
+---
+
 ## [1.7.3] - 2026-04-09
 
 ### Added

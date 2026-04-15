@@ -3,7 +3,7 @@
 :: ─────────────────────────────────────────────
 ::  ZenCode Assistant — Setup Script
 ::  Windows
-::  v1.7.3 — The Programmer Monk
+::  v1.7.4 — The CEO of Water
 :: ─────────────────────────────────────────────
 
 chcp 65001 >nul 2>&1
@@ -63,7 +63,7 @@ echo   ✓ gemma3:4b pulled successfully.
 echo.
 
 :: Step 3: Create ZenCode Assistant from the Modelfile
-echo   Creation: Building ZenCode-Assistant-v1.7.3...
+echo   Creation: Building ZenCode-Assistant-v1.7.4...
 ollama create zen_code -f Modelfile-ZenCode-Assistant
 
 if %ERRORLEVEL% neq 0 (
