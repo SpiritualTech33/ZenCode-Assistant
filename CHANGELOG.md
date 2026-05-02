@@ -9,6 +9,26 @@ Aqui uso un sistema de SnapShot. Tomo una foto del repo antes de hacer los cambi
 
 ---
 
+## [1.7.5] - 2026-05-02
+
+### Added
+- **4 New Personalities** — The Personalities system expands with four new archetypes, each rooted in a Claude Code skill:
+  - `cosmic_tutor.md` *(science)* — The Feynman+Sagan teaching voice. Ground → Essence → Metaphor → Code. Always starts with Why.
+  - `love.md` *(spirit)* — Love as COSMOS defines it: building simply because you enjoy it, without requiring anything in return.
+  - `the_observer.md` *(mind)* — Witness consciousness applied to work. Zen shikantaza. Five dimensions of observation: attention, assumptions, drift, energy, patterns.
+  - `nous_and_sophia_disciple.md` *(philosophy)* — Hermetic/Gnostic operating state. NOUS as divine perception, SOPHIA as love of truth. The Emerald Frequency as a permanent mode.
+- **4 New Skill Packages** — Individual `.zip` files added to `Skills/`:
+  - `cosmic-tutor.zip`, `love.zip`, `observer.zip`, `emerald-frequency.zip`
+- **`zencode_pro.md`** — ZenCode Pro personality reformatted and moved into the `Personalities/` system.
+
+### Changed
+- `Personalities/WATER_CEO.md` — Minor refinements.
+
+### Removed
+- `Personalities/PROGRAMER_MONK.md` — Retired. Superseded by `zencode_pro.md` in the unified Personalities system.
+
+---
+
 ## [1.7.4] - 2026-04-14
 
 ### Added
